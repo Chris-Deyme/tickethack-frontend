@@ -177,7 +177,7 @@ body{
   
 }
 
-#rightcard{
+#rightcard{ /* entoure image+message */
     background-color: #ffffff;
     border-radius: 16px;
     height: 55vh;
@@ -200,27 +200,44 @@ body{
     padding-top: 14vh;
 }
 
+/* #noticketbackground{
+    grid-row-start: 3;
+    grid-row-end: 13 ;
+    grid-column-start: 3;
+    grid-column-end: 14;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
 
 #notickets{
-    grid-row-start: 4;
-    grid-row-end: 6 ;
+    grid-row-start: 5;
+    grid-row-end: 7 ;
     grid-column-start: 3;
-    grid-column-end: 12;
+    grid-column-end: 14;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid 2px red;
+    border-top-left-radius:15px;
+    border-top-right-radius: 15px;
+    background-color: #ffffff;
+    color:#151817;
 }
 
 #whynot{
     grid-row-start: 7;
     grid-row-end: 9 ;
     grid-column-start: 3;
-    grid-column-end: 12;
+    grid-column-end: 14;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid 2px greenyellow;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius: 15px;
+    background-color: #ffffff;
+    color:#151817;
+    margin-top: 0.5px;
 }
 
 #notfound{
@@ -267,6 +284,46 @@ body{
 
 #messageformnotcomp{
     width: 27vw;
-    padding-left: 5vw;
+    padding-left: 2vw;
     padding-top: 14vh;
+}
+
+#voyagestrain{
+    background-color: #ffffff;
+}
+
+.voyage{
+background-color: #ffffff;
+border-radius: 7px;
+margin: 5px
+}
+
+
+#nobooking{
+    grid-row-start: 5;
+    grid-row-end: 7 ;
+    grid-column-start: 3;
+    grid-column-end: 14;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius:15px;
+    border-top-right-radius: 15px;
+    background-color: #ffffff;
+    color:#151817;
+}
+
+#whynot2{
+    grid-row-start: 7;
+    grid-row-end: 9 ;
+    grid-column-start: 3;
+    grid-column-end: 14;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius: 15px;
+    background-color: #ffffff;
+    color:#151817;
+    margin-top: 0.5px;
 }
